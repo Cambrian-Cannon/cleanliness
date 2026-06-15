@@ -12,7 +12,16 @@ By Abhir Deshpande
 ## Workflow (`run_analysis.R`)
 The script is fairly straightforward with 5 distinct steps
 
-1. **Merging Training and Testing Datasets** Loads [training](UCI HAR Dataset/train/X_train.txt) and [testing data](X_test.txt) and merges the two
+1. **Merging Training and Testing Datasets** Loads `X_train` and `X_test` and merges the two
 2. **Extracting Mean and Standard Deviation Values** Selects columns with mean or std in their name using `grep()`
-3. **Assigning Activity Names** Read from `y_train.txt`
+3. **Assigning Activity Names** Read from `y_train.txt` and `y_test.txt` merge and correlate them with `activity_labels`
 4. **Using more descriptive names** Replaces abbrieviations with full names and other miscellaneous items. Check `CodeBook.md` for more information
+5. **Creating smaller file with means and outputing it as a .txt** Using dplyr package and write.table
+
+## How to Run the Analysis
+1. Download and unzip the raw UCI HAR data directory into your R working directory.
+2. Place `run_analysis.R` in the same directory.
+3. Open R or RStudio and execute: `source("run_analysis.R")`
+4. The output file `final_tidy_dataset.txt` will be automatically generated in your working directory.
+                                OR
+1. Download the completed `final_tidy_dataset.txt` 
