@@ -22,6 +22,6 @@ The script is fairly straightforward with 5 distinct steps
 1. Download and unzip the raw UCI HAR data directory into your R working directory.
 2. Place `run_analysis.R` in the same directory.
 3. Open R or RStudio and execute: `source("run_analysis.R")`
-4. The output file `final_tidy_dataset.txt` will be automatically generated in your working directory.
-                                \nOR
+4. The output file `final_tidy_dataset.txt` will be automatically generated in your working directory.<br>
+                                OR<br>
 1. Download the completed `final_tidy_dataset.txt` 
