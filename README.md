@@ -7,7 +7,7 @@ By Abhir Deshpande
 * [CodeBook.md](CodeBook.md): A markdown codebook describing the variables, data structures, and transformations applied to clean up the data.
 * [README.md](README.md): This file, explaining the analysis script and execution steps.
 * [final_tidy_dataset.txt](final_tidy_dataset.txt): The final exported tidy dataset containing the calculated averages.
-* [UCI HAR Dataset](UCI HAR Dataset/): The raw dataset used by the R script.
+* [UCI HAR Dataset]: The raw dataset used by the R script.
 
 ## Workflow (`run_analysis.R`)
 The script is fairly straightforward with 5 distinct steps
