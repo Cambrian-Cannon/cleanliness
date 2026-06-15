@@ -43,6 +43,5 @@ tidy_combined<-cbind(tidy_combined,subject)
 final_tidy_data <- tidy_combined %>%
   group_by(Subject, Activity_Name) %>%
   summarise(across(everything(), mean), .groups = "drop")
-final_tidy_data<-final_tidy_data[order(final_tidy_data$Subject,final_tidy_data$Activity_Name)]
 
 write.table(final_tidy_data, "final_tidy_dataset.txt", row.name = FALSE)
