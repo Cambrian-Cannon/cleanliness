@@ -23,5 +23,5 @@ The script is fairly straightforward with 5 distinct steps
 2. Place `run_analysis.R` in the same directory.
 3. Open R or RStudio and execute: `source("run_analysis.R")`
 4. The output file `final_tidy_dataset.txt` will be automatically generated in your working directory.
-                                OR
+                                \nOR
 1. Download the completed `final_tidy_dataset.txt` 
