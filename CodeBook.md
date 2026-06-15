@@ -42,4 +42,4 @@ All signal values listed below represent the **mathematical mean** of the origin
 8. `Time_GravityAccelerometer_mean_Y`
 9. `Time_GravityAccelerometer_mean_Z`
 10. `Time_GravityAccelerometer_std_X`
-... *(Note: Feel free to paste your exact 66 cleaned column names sequentially here to complete the list!)*
+etc.
